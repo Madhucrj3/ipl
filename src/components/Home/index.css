@@ -1,0 +1,29 @@
+.HomeComp
+{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.HmeCompDiv{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    font-family: 'Bree Serif';
+    font-weight: 900;
+    justify-content: center;
+}
+.HmeCompDiv img{
+    height: 50px;
+    margin-right: 1rem;
+}
+.HomeCompCard{
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+}
+.HomeComp1{
+    max-width: 1200px;
+    margin: auto;
+}

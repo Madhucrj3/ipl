@@ -1,0 +1,45 @@
+.teamContdimg img{
+    height: 70px;
+    margin: 1rem;
+    width: 70px;
+}
+.teamContd
+{
+    
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    border:2px solid #475569;
+    border-radius: 8px;
+    margin: 1rem;
+    background-color: rgb(255, 255, 255,0.1);
+}
+.teamContd h3{
+    margin: 1rem;
+}
+.teamContdfi{
+    width: 50%;
+    text-decoration: none;
+}
+#teamfiid
+{
+    display: flex;
+    justify-content: flex-end;
+}
+@media only screen and (max-width: 700px) {
+    .teamContd {
+      width: 90%;
+      height: 100px;
+      margin: 1rem 0.2rem 1rem 0.2rem;
+    }
+    .teamContdimg img{
+        height: 40px;
+        width: 40px;
+        margin: 0.3rem;
+    }
+    .teamContd h3{
+        margin: 0.3rem;
+    }
+  }
